@@ -296,6 +296,9 @@ body {
     padding-left: 10px;
     margin-bottom: 50px;
 }
+.ourstory p {
+    font-size: 14px;
+}
 .ourstorycontainer {
     width: 100%;
     background-image: url("/images/proposewide.jpg");
@@ -369,9 +372,10 @@ body {
 }
 .footer {
     width: 100%;
-    background-color: Grey;
+    background-color: #061934;
     color: whitesmoke;
     font-size: 10px;
+    text-align: center;
     
     /*margin-top: 150px;*/
 }
@@ -384,6 +388,14 @@ body {
     margin-left: 10px;
     padding-bottom: 15px;
     font-size: 15px;
+}
+.footer img {
+    width: 300px;
+}
+@media screen and (max-width: 500px){
+    .footer img {
+    width: 200px;
+    }
 }
 @media screen and (max-width: 311px) {
     .footer span {
@@ -460,13 +472,14 @@ body {
 .weddingpartycard {
     background-color: whitesmoke;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     padding-left: 10%;
     padding-right: 10%;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #c3c3c3;
+    font-size: 12px;
     /*background-color: whitesmoke;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -484,6 +497,7 @@ body {
     margin-right: 25px;
     margin-top: 15px;
     float: left;
+    border-radius: 100%;
 }
 .weddingpartyheader {
     margin-left: 10%;

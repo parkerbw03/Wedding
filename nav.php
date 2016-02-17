@@ -12,11 +12,11 @@
     <title>Ben & Kathryn</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="CSS/font-awesome.min.css" rel="stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/blueimp/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="CSS/blueimp/blueimp-gallery.min.css">
 
 </head>
 <body>

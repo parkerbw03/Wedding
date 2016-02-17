@@ -2,6 +2,8 @@
             <a href="#backtotop">Back to top <i class="glyphicon glyphicon-menu-up"></i></a>
         </div>
         <div class="footer">
+            <a href="index.php"><img src="/images/Drawing.png" style="padding-top: 25px;" alt="Ben & Kathryn logo" /></a>
+            <hr style="border-top: 1px dashed grey; width: 50%">
             <span>Contact us at benandkathryn16@gmail.com</span>
             <p>Website built and designed by the groom.</p>
             <p>Icons designed by Freepik.</p>
@@ -40,28 +42,28 @@
         </script>
         <!-- countdown script-->
         <script type="text/javascript">
-          $('#days').countdown('2016/06/11  14:00:00', function(event) {
+          $('#days').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%D'));
           });
-          $('#hours').countdown('2016/06/11  14:00:00', function(event) {
+          $('#hours').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%H'));
           });
-          $('#minutes').countdown('2016/06/11  14:00:00', function(event) {
+          $('#minutes').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%M'));
           });
-          $('#seconds').countdown('2016/06/11  14:00:00', function(event) {
+          $('#seconds').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%S'));
           });
-          $('#daysmobile').countdown('2016/06/11  14:00:00', function(event) {
+          $('#daysmobile').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%D'));
           });
-          $('#hoursmobile').countdown('2016/06/11  14:00:00', function(event) {
+          $('#hoursmobile').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%H'));
           });
-          $('#minutesmobile').countdown('2016/06/11  14:00:00', function(event) {
+          $('#minutesmobile').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%M'));
           });
-          $('#secondsmobile').countdown('2016/06/11  14:00:00', function(event) {
+          $('#secondsmobile').countdown('2016/06/11  15:00:00', function(event) {
             $(this).html(event.strftime('%S'));
           });
         </script>
