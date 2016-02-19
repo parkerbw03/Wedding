@@ -702,3 +702,57 @@ body {
         display: none;
     }*/
 }
+/* REGISTRY */
+.registrylogocontain {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.registrylogo {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: whitesmoke;   
+    border-style: dotted;
+    border-color: #061934;
+    border-width: 2px;
+    position: relative;
+    -webkit-transition: .5s ease;
+	-moz-transition: .5s ease;
+	-ms-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.registrylogo:hover {
+    background-color: white;
+    border-style: solid;
+}
+.registrylogo a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+}
+.fullwithcap {
+    display: inline-block;
+    margin: 50px;
+}
+.fullwithcap p {
+    font-size: 17px;
+}
+.registrylogo img {
+    width: 150px;
+    padding-top: 25%;
+    vertical-align: top;
+}
+@media screen and (max-width: 700px) {
+    .fullwithcap {
+        margin: 10px;
+    }
+    .registrylogocontain h1 {
+        margin-bottom: 50px;
+    }
+}
